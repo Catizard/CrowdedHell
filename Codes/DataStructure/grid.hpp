@@ -56,7 +56,7 @@
  *              {12, 11, 7, -3},        | 12  11   7  -3|
  *              {-7, 0, 21, 10},    =>  | -7   0  21  10|
  *              {4, -1, -17, 5}};       |  4  -1 -17   5|
- *          gird[1][2] = 10;
+ *          gird[1][3] = 10;
  *          int tail = grid[2][3];
  *
  *      Also, you can use 'at' function to access the grid. They are equivalent.
