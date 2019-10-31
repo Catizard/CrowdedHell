@@ -22,7 +22,8 @@ public:
 class Path :public QList<PathPoint>
 {
 public:
-    Path();
+    Path(QString Name,bool closed,bool smooth,int precision)
+        :name(Name),m_closed(closed),m_smooth(smooth),m_precision(precision){};
 private:
     QString name;
     bool m_closed, m_smooth;
